@@ -32,13 +32,13 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Precios Acecibles</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Aprovecha nuestra oferta de sitios webs estáticos solo por 8500$
+              con dominio .xyz y certificados SSL. <br />
+              Tambien consultanos por: Catálogos de Productos con
+              artículos/images, Blogs, Sistemas para organizarte, Tiendas
+              virtuales, Chatbots entre otros.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -53,13 +53,12 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Rapidez</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Desarrollamos y desplegamos tu proyecto lo mas rapido posible.
+              <br />
+              Atendemos tus urgencias, caída de servidores, instancias,
+              levantamos servicios.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -74,13 +73,12 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Experiencia</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Nos dedicamos desarrolo de software, contamos con
+              programadores/desarrolladores altamente calificados y con
+              experiencia <br />
+              Usamos tecnologías modernas, altamente escalables
             </p>
             <a href="/#" className="special">
               Learn more
@@ -91,7 +89,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Te ofrecemos:</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
             Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
@@ -103,10 +101,9 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Web</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Páginas web estáticas, Aplicaciones webs, Páginas con Wordpress
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -116,10 +113,10 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Frontend</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Html5, Css3 y Javascript. Consumo de API-REST, Bootstrap, React,
+                Gatsby y mucho mas.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -129,10 +126,10 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">Backend</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Creación de APis, Base de datos Relacionales y No-Relacionales,
+                ORMs, Tokens de seguridad, Testing y Documentación
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -142,10 +139,11 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic7} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">SRE</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Contenerización de Aplicaciones, ServerLess, Certificados SSL,
+                DNS, Sistemas Operativos, Servicios de AWS, como EC2, S3,
+                Lambda, DynamoDB entre otras.
               </p>
               <a href="/#" className="special">
                 Learn more
