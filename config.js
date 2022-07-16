@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#0df8d8',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/software-of-south/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Software of South',
   subHeading: 'Desarrollo de software, WEB, Backend, SRE, Cloud',
   // social
