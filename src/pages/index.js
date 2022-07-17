@@ -65,7 +65,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt=""/>
+            <img src={pic3} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Más clientes</h2>
