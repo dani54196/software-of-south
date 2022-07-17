@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-whatsapp',
       name: 'Whatsapp',
-      url: 'https://api.whatsapp.com/send?phone=5492612411868',
+      url: 'https://api.whatsapp.com/send?phone=+5491151164446',
     },
     {
       icon: 'fa-facebook',
@@ -33,6 +33,6 @@ module.exports = {
       url: 'mailto:dani54196@gmail.com',
     },
   ],
-  phone: '+5492612411868',
+  phone: '+5491151164446',
   address: 'Buenos Aires, Argentina',
 };
