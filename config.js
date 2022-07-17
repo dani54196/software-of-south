@@ -23,9 +23,9 @@ module.exports = {
       url: 'https://api.whatsapp.com/send?phone=5492612411868',
     },
     {
-      icon: 'fa-instagram',
-      name: 'Instagram',
-      url: 'https://www.instagram.com/dani54196/',
+      icon: 'fa-facebook',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/profile.php?id=100083613546610',
     },
     {
       icon: 'fa-envelope-o',

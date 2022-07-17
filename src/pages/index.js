@@ -34,15 +34,13 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Precios Acecibles</h2>
             <p>
-              Aprovecha nuestra oferta de sitios webs estáticos solo por 8500$
-              con dominio .xyz y certificados SSL. <br />
-              Tambien consultanos por: Catálogos de Productos con
+              Aprovecha nuestra oferta de sitios webs informativos Dominio
+              (.xyz), Host y Certificados SSL por solo 7500$
+              <br />
+              Tambien consultanos por ofertas en: Catálogos de Productos con
               artículos/images, Blogs, Sistemas para organizarte, Tiendas
               virtuales, Chatbots entre otros.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
@@ -55,14 +53,11 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Rapidez</h2>
             <p>
-              Desarrollamos y desplegamos tu proyecto lo mas rapido posible.
+              Desarrollamos y subimos tu proyecto lo mas rapido posible.
               <br />
-              Atendemos tus urgencias, caída de servidores, instancias,
-              levantamos servicios.
+              Atendemos tus urgencias, migraciones, caída de servidores,
+              instancias.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
@@ -70,19 +65,16 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={pic3} alt=""/>
           </a>
           <div className="content">
-            <h2 className="major">Experiencia</h2>
+            <h2 className="major">Más clientes</h2>
             <p>
-              Nos dedicamos desarrolo de software, contamos con
-              programadores/desarrolladores altamente calificados y con
-              experiencia <br />
-              Usamos tecnologías modernas, altamente escalables
+              Obtenga más clientes, con nuestra forma de hacer las páginas,
+              (SEO) aparece en los primeros lugares en google.
+              <br />O sino Usando publicidad en google, facebook, instagram o
+              youtube.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
@@ -91,10 +83,10 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Te ofrecemos:</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            Estamos capacitados con conocimientos en tecnologías modernas y
+            escalables. Usamos las mejores herramientas adaptandonos a tus
+            necesidades y ahorrandote en costos. <br />
+            Experiencia y responsabilidad.
           </p>
           <section className="features">
             <article>
@@ -103,11 +95,9 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Web</h3>
               <p>
-                Páginas web estáticas, Aplicaciones webs, Páginas con Wordpress
+                Páginas webs informativas, tiendas virtuales, galería de
+                imágenes, blogs, automatización, chatbots, SEO y mucho más.
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
             </article>
             <article>
               <a href="/#" className="image">
@@ -115,12 +105,9 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Frontend</h3>
               <p>
-                Html5, Css3 y Javascript. Consumo de API-REST, Bootstrap, React,
-                Gatsby y mucho mas.
+                Html5, Css3 y Javascript. Consumo de APIs, Bootstrap, React,
+                herramientas para sitios web estaticos como Gatsby y Hugo.
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
             </article>
             <article>
               <a href="/#" className="image">
@@ -129,11 +116,8 @@ const IndexPage = () => (
               <h3 className="major">Backend</h3>
               <p>
                 Creación de APis, Base de datos Relacionales y No-Relacionales,
-                ORMs, Tokens de seguridad, Testing y Documentación
+                ORMs, Tokens de seguridad, Testing y Documentación.
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
             </article>
             <article>
               <a href="/#" className="image">
@@ -141,19 +125,16 @@ const IndexPage = () => (
               </a>
               <h3 className="major">SRE</h3>
               <p>
-                Contenerización de Aplicaciones, ServerLess, Certificados SSL,
-                DNS, Sistemas Operativos, Servicios de AWS, como EC2, S3,
-                Lambda, DynamoDB entre otras.
+                Contenerización de Aplicaciones, Hosting, ServerLess,
+                Certificados SSL, DNS, Sistemas Operativos, Servicios de AWS
+                (EC, Lightsail, EC2, S3, Lambda, DynamoDB entre otras).
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
             </article>
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
-                Browse All
+              <a href="https://github.com/dani54196" className="button">
+                Y mucho mas
               </a>
             </li>
           </ul>

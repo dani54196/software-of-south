@@ -9,7 +9,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
         <ul className="links">
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
               to="/"
@@ -19,28 +19,28 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </li>
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="#four"
             >
-              Generic Page
+              Lo que hacemos
             </Link>
           </li>
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="#footer"
             >
-              Elements
+              Contactanos
             </Link>
           </li>
         </ul>
         <a
           className="close"
-          onClick={e => {
+          onClick={(e) => {
             e.preventDefault();
             onMenuToggle();
           }}

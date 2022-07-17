@@ -2,25 +2,33 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import config from '../../config';
 export default function Footer() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('dani54196', 'template_wyt7ayw', form.current, 'user_tdRNXJZEsIE4IPNcYqo2Y')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        'dani54196',
+        'template_wyt7ayw',
+        form.current,
+        'user_tdRNXJZEsIE4IPNcYqo2Y'
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
 
   return (
     <section id="footer">
       <div className="inner">
         <h2 className="major">Contactanos</h2>
-        <p>Consultoria gratuita incluida en tu desarrollo</p>
+        <p>Consulta sin cargo, respondemos tus dudas</p>
         <form method="post" ref={form} onSubmit={sendEmail}>
           <div className="fields">
             <div className="field">
@@ -38,7 +46,7 @@ export default function Footer() {
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send" />
+              <input type="submit" value="Enviar" />
             </li>
           </ul>
         </form>
