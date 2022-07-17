@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-whatsapp',
       name: 'Whatsapp',
-      url: 'https://api.whatsapp.com/send?phone=+5491151164446',
+      url: 'https://api.whatsapp.com/send?phone=5491151164446',
     },
     {
       icon: 'fa-facebook',
@@ -30,7 +30,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:dani54196@gmail.com',
+      url: 'mailto:softwareofsouth@gmail.com',
     },
   ],
   phone: '+5491151164446',
